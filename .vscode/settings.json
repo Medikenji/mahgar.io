@@ -1,0 +1,8 @@
+{
+  "cmake.sourceDirectory": "C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/raylib-cpp",
+  "cSpell.words": ["raymath", "RAYWHITE", "SHEIGHT", "SWIDTH"],
+  "files.associations": {
+    "*.embeddedhtml": "html",
+    "iostream": "cpp"
+  }
+}
