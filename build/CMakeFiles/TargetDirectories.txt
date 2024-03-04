@@ -1,19 +1,19 @@
-C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/main.dir
-C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/PACKAGE.dir
-C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/INSTALL.dir
-C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/libs/raylib/CMakeFiles/uninstall.dir
-C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/libs/raylib/CMakeFiles/PACKAGE.dir
-C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/libs/raylib/CMakeFiles/INSTALL.dir
-C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/libs/raylib/CMakeFiles/ALL_BUILD.dir
-C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/libs/raylib/raylib/CMakeFiles/raylib.dir
-C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/libs/raylib/raylib/CMakeFiles/PACKAGE.dir
-C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/libs/raylib/raylib/CMakeFiles/INSTALL.dir
-C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/libs/raylib/raylib/external/glfw/CMakeFiles/PACKAGE.dir
-C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/libs/raylib/raylib/external/glfw/CMakeFiles/INSTALL.dir
-C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/libs/raylib/raylib/external/glfw/CMakeFiles/ALL_BUILD.dir
-C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings.dir
-C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/PACKAGE.dir
-C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/INSTALL.dir
+C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/main.dir
+C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/PACKAGE.dir
+C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/INSTALL.dir
+C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/libs/raylib/CMakeFiles/uninstall.dir
+C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/libs/raylib/CMakeFiles/PACKAGE.dir
+C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/libs/raylib/CMakeFiles/INSTALL.dir
+C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/libs/raylib/CMakeFiles/ALL_BUILD.dir
+C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/libs/raylib/raylib/CMakeFiles/raylib.dir
+C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/libs/raylib/raylib/CMakeFiles/PACKAGE.dir
+C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/libs/raylib/raylib/CMakeFiles/INSTALL.dir
+C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/libs/raylib/raylib/external/glfw/CMakeFiles/PACKAGE.dir
+C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/libs/raylib/raylib/external/glfw/CMakeFiles/INSTALL.dir
+C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/libs/raylib/raylib/external/glfw/CMakeFiles/ALL_BUILD.dir
+C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
+C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings.dir
+C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/PACKAGE.dir
+C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/INSTALL.dir

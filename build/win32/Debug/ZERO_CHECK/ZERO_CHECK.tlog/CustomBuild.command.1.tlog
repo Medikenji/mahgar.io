@@ -1,0 +1,10 @@
+^C:\USERS\NOLAN\ONEDRIVE - ROC ALFA-COLLEGE\SOTWAREDEVELOPMENT\MAHGAR\BUILD\CMAKEFILES\FC9AC5CD2D0530CFC74B2251F5FAD68A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp" "-BC:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/main.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

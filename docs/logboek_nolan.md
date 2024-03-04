@@ -1,65 +1,124 @@
-# Logboek Nolan
+## Logboek Nolan
 
----
-
-## Week 9
-
----
-
-### Maandag
-
-Bezig geweest met CV klaarmaken en stage plekken gevonden.
-<br>
-
----
-
-## Week 7
+# Week 10
 
 ### Maandag
 
 - **1e les uur**
-  Uitleg van Rik gehad en project klaar gezet.
+  Resource management en class types uitleg gekregen.
   <br>
+
 - **2e les uur**
-  Projectplan gemaakt en spel idee kort uitgewerkt.
-  <br>
-- **3e les uur**
-  Workspace klaargezet en kan nu mijn applicatie runnen.
-  Alle lege geplande klasses zijn aangemaakt.
-  <br>
+  Uitleg over structs gekregen en children lijst in Entity gemaakt die aangeroepen kan worden door een functie.
+
+  ```cpp
+  const std::vector<Entity *> &children() { return _children; };
+  std::vector<Entity *> _children;
+  ```
 
 ---
 
-### Dinsdag
+<div style="page-break-after: always;"></div>
 
-- **2e les uur**
-  Begonnen aan mijn entity class maar problemen met compiler errors.
-  <br>
+# Week 9
+
+### Maandag
+
+- **Geen school:**
+  Bezig geweest met CV klaarmaken en stage plekken gevonden.
 
 ---
 
 ### Woensdag
 
-- **2e les uur**
-  [Tutorial](https://www.youtube.com/watch?v=VLJlTaFvHo4) gekeken om de basis van raylib te kennen.
-  Niet ver gekomen i.v.m. school gerelateerde afleidingen.
+- **1e les uur:**
+  Uitleg over databases gekregen en een begin gemaakt met een werkend programma, eindelijk.
   <br>
+
+- **2e les uur:**
+  Ik probeer mijn programma te laten runnen op basis van klassen die geinspireerd zijn door rowan maar krijg hele rare errors die niemand lijkt te kunnen fixen.
+  Ik krijg deze error 4 keer ondanks dat alles goed inbegrepen lijkt te zijn:
+
+  > "syntax error: identifier 'Scene' [C:\Users\nolan\OneDrive - ROC Alfa-college\Sotware Development\mahgar\build\main.vcxproj]"
+
+  Ook krijg ik deze error ookal gebruik ik geen static in mijn code:
+
+  > "illegal reference to non-static member 'Core::\_deltaTime' [C:\Users\nolan\OneDrive - ROC Alfa-college\Sotware Development\mahgar\build\main.vcxproj]"
+
+  Deze problemen hebben een hoge prioriteit.
+  <br>
+
+- **3e les uur:**
+  Probleem is opgelost; ik moest mijn headers in de CMakeList.txt stoppen. CMakeList.txt gaf geen errors en de errors die ik kreeg hadden naar mijn ervaring niet goed gehint naar het feit dat het probleem daar lag. Maar ik kan tenminste verder.
+  > (De errors kwamen donderdag terug ondanks dat ik geen lijn code heb aangeraakt, hierdoor ben ik donderdag opnieuw begonnen.)
 
 ---
 
 ### Donderdag
 
-- **1e les uur**
+- **1e les uur:**
+  Projectplan gemaakt.
+  <br>
+
+- **2e les uur:**
+  Alle klasses verwijderd en opnieuw gemaakt op basis van een klassendiagram.
+  Bezig geweest met main, core en config.
+  <br>
+
+- **3e les uur:**
+  Main, core en config werkend gekregen.
+  Nu kan ik beginnen met mijn framework klasses.
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Week 7
+
+### Maandag
+
+- **1e les uur:**
+  Uitleg van Rik gehad en project klaar gezet.
+  <br>
+
+- **2e les uur:**
+  Projectplan gemaakt en spel idee kort uitgewerkt.
+  <br>
+
+- **3e les uur:**
+  Workspace klaargezet en kan nu mijn applicatie runnen.
+  Alle lege geplande klasses zijn aangemaakt.
+
+---
+
+### Dinsdag
+
+- **2e les uur:**
+  Begonnen aan mijn entity class maar problemen met compiler errors.
+
+---
+
+### Woensdag
+
+- **2e les uur:**
+  [Tutorial](https://www.youtube.com/watch?v=VLJlTaFvHo4) gekeken om de basis van raylib te kennen.
+  Niet ver gekomen i.v.m. school gerelateerde afleidingen.
+
+---
+
+### Donderdag
+
+- **1e les uur:**
   [Tutorial](https://www.youtube.com/watch?v=VLJlTaFvHo4) afgekeken en basisscené opgezet met raylib.
   <br>
-- **2e en 3e les uur**
+
+- **2e en 3e les uur:**
   Bezig geweest met project maar weet niet meer wat.
-  <br>
 
 ---
 
 ### Vrijdag
 
-- **1e les uur**
+- **1e les uur:**
   Opnieuw begonnen met een werkende main en config file. Ook wat raylib functies door gelezen om toekomstige teleurstelling te voorkomen.
   <br>

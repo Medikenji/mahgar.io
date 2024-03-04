@@ -1,36 +1,84 @@
-## Nolan Bijmholt
+# Maghar
 
-# Project Plan: "maghar"
+## **Projectplan**
 
-_Maghar will be made with c++ raylib_
-Maghar is a simplified singleplayer only version of agar.io.
-You start as a tiny ball that can move on the x and y axis. If you pick up other balls (these can be npc's or pickups) you grow a bit. You do this until you get eaten by a bigger ball which ends the game.
-I will first try and make these simple functions work and then I will see if I can add more functions.
+_Nolan Bijmholt_
 
----
+**_v1_**
 
-## List of thing to do
+<br>
 
-### Classes
+**Inhoudsopgave**
 
-- [ ] Scene
-- [ ] Entity
-- [ ] Object
-- [ ] Blob
-- [ ] Intractable
-
-#### Extras
-
-- [ ] Text
-- [ ] Timer
+- [Inleiding](#inleiding)
+- [Gameplay](#gameplay)
+- [Doelplatform](#doelplatform)
+- [Planning](#planning)
+- [Versiebeheer](#versiebeheer)
 
 ---
 
-### In game features
+<br>
 
-- [ ] Movement
-- [ ] Interactables
-- [ ] Obstacles
-- [ ] Random spawn system
-- [ ] Enemy AI
-- [ ] Utilities (not worked out yet)
+<a id="inleiding"></a>
+
+### Inleiding
+
+Dit projectplan is voor het project "Framework". In dit project moeten we ons eigen OpenGL gebaseerde framework maken en een simpel bijbehoorend spel.
+De kern van dit project is de ontwikkeling van het framework; het spel is secundair en functioneert voornamelijk als een toepassing van het framework.
+Dit is ook deels voorbereiding voor de toelatings opdracht voor de NHTV (BUAS) of Saxxion. Mocht ik besluiten mij daar aan te melden.
+In dit document ga ik mijn planning voor dit project uitwerken en wekelijk bij proberen te houden en aan te passen wanneer dit nodig is.
+
+<br>
+
+<a id="gameplay"></a>
+
+### Gameplay
+
+Ik ga een simpel spel maken dat inspiratie heeft genomen van de webgame [Agario](https://sigmally.com/).
+Alle "spelers" in het spel zijn ballen/blobs die groeien wanneer ze een kleinere blob consumeren. Hierdoor kun je steeds grotere blobs eten todat je zelf geconsumeert wordt.
+Ik ga met name proberen de logica te maken van het consumeren van andere blobs en de statestieke effecten die dit heeft op de speler.
+Denk hieraan aan de speler die groter en trager wordt op een gebalanceerde manier. Wanneer ik nog tijd over heb kan ik een spawn systeem maken die mee schaalt met de speler en mogelijk kleinere functies.
+
+<br>
+
+<a id="doelplatform"></a>
+
+### Doelplatform
+
+Ik ga het framework maken in Raylib C++ met een windows compiler. Ook wil ik controller support toevoegen.
+
+<br>
+
+<a id="planning"></a>
+
+### Planning
+
+Ik deel mijn planning in 3 verschillende fases.
+Ik zet in deze planning alles wat ik sowiezo af wil hebben, extra aanpassingen zijn in mijn logboek te vinden.
+
+#### Fase 1
+
+- [x] Klassendiagram
+- [ ] GDD
+- [x] Config bijwerken
+- [x] Klassen aanmaken en folderstructuur goed zetten
+- [x] Main en core klaarzetten
+
+#### Fase 2
+
+- [ ] Scene klasse
+- [ ] Entity klasse
+- [ ] Blob klasse
+
+#### Fase 3
+
+Zo veel mogelijk afmaken.
+
+<br>
+
+<a id="versiebeheer"></a>
+
+### Versiebeheer
+
+Ik houd mijn versies bij op mijn [GitHub](https://github.com/Medikenji/mahgar.io).

@@ -24,9 +24,9 @@ events:
       The output was:
       0
       MSBuild version 17.7.2+d6990bcfa for .NET Framework
-      Build started 16/02/2024 09:25:50.
+      Build started 29/02/2024 11:53:29.
       
-      Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Creating directory "Debug\\CompilerIdC.tlog\\".
@@ -34,25 +34,25 @@ events:
         Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
       ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
         CMakeCCompilerId.c
       Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.exe
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
-        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx86\\x64\\cl.exe
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx86\\x86\\cl.exe
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.80
+      Time Elapsed 00:00:01.07
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -60,7 +60,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/3.28.0-rc5/CompilerIdC/CompilerIdC.exe
+        C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/3.28.0-rc5/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -78,9 +78,9 @@ events:
       The output was:
       0
       MSBuild version 17.7.2+d6990bcfa for .NET Framework
-      Build started 16/02/2024 09:25:52.
+      Build started 29/02/2024 11:53:31.
       
-      Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Creating directory "Debug\\CompilerIdCXX.tlog\\".
@@ -88,25 +88,25 @@ events:
         Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
       ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
         CMakeCXXCompilerId.cpp
       Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
-        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx86\\x64\\cl.exe
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx86\\x86\\cl.exe
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.49
+      Time Elapsed 00:00:00.67
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -114,7 +114,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/3.28.0-rc5/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/3.28.0-rc5/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -125,47 +125,48 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-1ownrf"
-      binary: "C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-1ownrf"
+      source: "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-11mvsh"
+      binary: "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-11mvsh"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-1ownrf'
+        Change Dir: 'C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-11mvsh'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ac2c6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a7f5b.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 16/02/2024 09:25:54.
+        Build started 29/02/2024 11:53:32.
         
-        Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ownrf\\cmTC_ac2c6.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-11mvsh\\cmTC_a7f5b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_ac2c6.dir\\Debug\\".
-          Creating directory "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ownrf\\Debug\\".
-          Creating directory "cmTC_ac2c6.dir\\Debug\\cmTC_ac2c6.tlog\\".
+          Creating directory "cmTC_a7f5b.dir\\Debug\\".
+          Creating directory "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-11mvsh\\Debug\\".
+          Creating directory "cmTC_a7f5b.dir\\Debug\\cmTC_a7f5b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_ac2c6.dir\\Debug\\cmTC_ac2c6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_ac2c6.dir\\Debug\\cmTC_ac2c6.tlog\\unsuccessfulbuild".
+          Creating "cmTC_a7f5b.dir\\Debug\\cmTC_a7f5b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a7f5b.dir\\Debug\\cmTC_a7f5b.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ac2c6.dir\\Debug\\\\" /Fd"cmTC_ac2c6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7f5b.dir\\Debug\\\\" /Fd"cmTC_a7f5b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x86
           CMakeCCompilerABI.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ac2c6.dir\\Debug\\\\" /Fd"cmTC_ac2c6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7f5b.dir\\Debug\\\\" /Fd"cmTC_a7f5b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ownrf\\Debug\\cmTC_ac2c6.exe" /INCREMENTAL /ILK:"cmTC_ac2c6.dir\\Debug\\cmTC_ac2c6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-1ownrf/Debug/cmTC_ac2c6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-1ownrf/Debug/cmTC_ac2c6.lib" /MACHINE:X64  /machine:x64 cmTC_ac2c6.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_ac2c6.vcxproj -> C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ownrf\\Debug\\cmTC_ac2c6.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-11mvsh\\Debug\\cmTC_a7f5b.exe" /INCREMENTAL /ILK:"cmTC_a7f5b.dir\\Debug\\cmTC_a7f5b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-11mvsh/Debug/cmTC_a7f5b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-11mvsh/Debug/cmTC_a7f5b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_a7f5b.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_a7f5b.vcxproj -> C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-11mvsh\\Debug\\cmTC_a7f5b.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_ac2c6.dir\\Debug\\cmTC_ac2c6.tlog\\unsuccessfulbuild".
-          Touching "cmTC_ac2c6.dir\\Debug\\cmTC_ac2c6.tlog\\cmTC_ac2c6.lastbuildstate".
-        Done Building Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ownrf\\cmTC_ac2c6.vcxproj" (default targets).
+          Deleting file "cmTC_a7f5b.dir\\Debug\\cmTC_a7f5b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a7f5b.dir\\Debug\\cmTC_a7f5b.tlog\\cmTC_a7f5b.lastbuildstate".
+        Done Building Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-11mvsh\\cmTC_a7f5b.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.55
+        Time Elapsed 00:00:00.89
         
       exitCode: 0
   -
@@ -177,47 +178,48 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-k7ooiy"
-      binary: "C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-k7ooiy"
+      source: "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-6da78y"
+      binary: "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-6da78y"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-k7ooiy'
+        Change Dir: 'C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-6da78y'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_187d9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_656a0.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 16/02/2024 09:25:56.
+        Build started 29/02/2024 11:53:33.
         
-        Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7ooiy\\cmTC_187d9.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6da78y\\cmTC_656a0.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_187d9.dir\\Debug\\".
-          Creating directory "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7ooiy\\Debug\\".
-          Creating directory "cmTC_187d9.dir\\Debug\\cmTC_187d9.tlog\\".
+          Creating directory "cmTC_656a0.dir\\Debug\\".
+          Creating directory "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6da78y\\Debug\\".
+          Creating directory "cmTC_656a0.dir\\Debug\\cmTC_656a0.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_187d9.dir\\Debug\\cmTC_187d9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_187d9.dir\\Debug\\cmTC_187d9.tlog\\unsuccessfulbuild".
+          Creating "cmTC_656a0.dir\\Debug\\cmTC_656a0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_656a0.dir\\Debug\\cmTC_656a0.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_187d9.dir\\Debug\\\\" /Fd"cmTC_187d9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_656a0.dir\\Debug\\\\" /Fd"cmTC_656a0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x86
           CMakeCXXCompilerABI.cpp
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_187d9.dir\\Debug\\\\" /Fd"cmTC_187d9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_656a0.dir\\Debug\\\\" /Fd"cmTC_656a0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7ooiy\\Debug\\cmTC_187d9.exe" /INCREMENTAL /ILK:"cmTC_187d9.dir\\Debug\\cmTC_187d9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-k7ooiy/Debug/cmTC_187d9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-k7ooiy/Debug/cmTC_187d9.lib" /MACHINE:X64  /machine:x64 cmTC_187d9.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_187d9.vcxproj -> C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7ooiy\\Debug\\cmTC_187d9.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6da78y\\Debug\\cmTC_656a0.exe" /INCREMENTAL /ILK:"cmTC_656a0.dir\\Debug\\cmTC_656a0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-6da78y/Debug/cmTC_656a0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-6da78y/Debug/cmTC_656a0.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_656a0.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_656a0.vcxproj -> C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6da78y\\Debug\\cmTC_656a0.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_187d9.dir\\Debug\\cmTC_187d9.tlog\\unsuccessfulbuild".
-          Touching "cmTC_187d9.dir\\Debug\\cmTC_187d9.tlog\\cmTC_187d9.lastbuildstate".
-        Done Building Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7ooiy\\cmTC_187d9.vcxproj" (default targets).
+          Deleting file "cmTC_656a0.dir\\Debug\\cmTC_656a0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_656a0.dir\\Debug\\cmTC_656a0.tlog\\cmTC_656a0.lastbuildstate".
+        Done Building Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6da78y\\cmTC_656a0.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.46
+        Time Elapsed 00:00:00.63
         
       exitCode: 0
   -
@@ -232,48 +234,48 @@ events:
     checks:
       - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
     directories:
-      source: "C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-6lmp1m"
-      binary: "C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-6lmp1m"
+      source: "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-zx5ve5"
+      binary: "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-zx5ve5"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/raylib-cpp/libs/raylib/cmake"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/libs/raylib/cmake"
     buildResult:
       variable: "COMPILER_HAS_THOSE_TOGGLES"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-6lmp1m'
+        Change Dir: 'C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-zx5ve5'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7b085.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_de565.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 16/02/2024 09:25:58.
+        Build started 29/02/2024 11:53:34.
         
-        Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6lmp1m\\cmTC_7b085.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zx5ve5\\cmTC_de565.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_7b085.dir\\Debug\\".
-          Creating directory "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6lmp1m\\Debug\\".
-          Creating directory "cmTC_7b085.dir\\Debug\\cmTC_7b085.tlog\\".
+          Creating directory "cmTC_de565.dir\\Debug\\".
+          Creating directory "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zx5ve5\\Debug\\".
+          Creating directory "cmTC_de565.dir\\Debug\\cmTC_de565.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_7b085.dir\\Debug\\cmTC_7b085.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_7b085.dir\\Debug\\cmTC_7b085.tlog\\unsuccessfulbuild".
+          Creating "cmTC_de565.dir\\Debug\\cmTC_de565.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_de565.dir\\Debug\\cmTC_de565.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7b085.dir\\Debug\\\\" /Fd"cmTC_7b085.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -Werror=pointer-arith "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6lmp1m\\src.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x64
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de565.dir\\Debug\\\\" /Fd"cmTC_de565.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue  -Werror=pointer-arith "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zx5ve5\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x86
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7b085.dir\\Debug\\\\" /Fd"cmTC_7b085.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -Werror=pointer-arith "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6lmp1m\\src.c"
-        cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6lmp1m\\cmTC_7b085.vcxproj]
-        Done Building Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6lmp1m\\cmTC_7b085.vcxproj" (default targets) -- FAILED.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de565.dir\\Debug\\\\" /Fd"cmTC_de565.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue  -Werror=pointer-arith "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zx5ve5\\src.c"
+        cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zx5ve5\\cmTC_de565.vcxproj]
+        Done Building Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zx5ve5\\cmTC_de565.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6lmp1m\\cmTC_7b085.vcxproj" (default target) (1) ->
+        "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zx5ve5\\cmTC_de565.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6lmp1m\\cmTC_7b085.vcxproj]
+          cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zx5ve5\\cmTC_de565.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:01.15
+        Time Elapsed 00:00:00.33
         
       exitCode: 1
   -
@@ -287,49 +289,49 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-p2lz26"
-      binary: "C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-p2lz26"
+      source: "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-5bqhyt"
+      binary: "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-5bqhyt"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/raylib-cpp/libs/raylib/cmake;C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/raylib-cpp/libs/raylib/src/external/glfw/CMake/modules"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/libs/raylib/cmake;C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/libs/raylib/src/external/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-p2lz26'
+        Change Dir: 'C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-5bqhyt'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_64206.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_11528.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 16/02/2024 09:26:00.
+        Build started 29/02/2024 11:53:35.
         
-        Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p2lz26\\cmTC_64206.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5bqhyt\\cmTC_11528.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_64206.dir\\Debug\\".
-          Creating directory "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p2lz26\\Debug\\".
-          Creating directory "cmTC_64206.dir\\Debug\\cmTC_64206.tlog\\".
+          Creating directory "cmTC_11528.dir\\Debug\\".
+          Creating directory "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5bqhyt\\Debug\\".
+          Creating directory "cmTC_11528.dir\\Debug\\cmTC_11528.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_64206.dir\\Debug\\cmTC_64206.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_64206.dir\\Debug\\cmTC_64206.tlog\\unsuccessfulbuild".
+          Creating "cmTC_11528.dir\\Debug\\cmTC_11528.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_11528.dir\\Debug\\cmTC_11528.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_64206.dir\\Debug\\\\" /Fd"cmTC_64206.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p2lz26\\src.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11528.dir\\Debug\\\\" /Fd"cmTC_11528.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5bqhyt\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x86
           src.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_64206.dir\\Debug\\\\" /Fd"cmTC_64206.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p2lz26\\src.c"
-        C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p2lz26\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p2lz26\\cmTC_64206.vcxproj]
-        Done Building Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p2lz26\\cmTC_64206.vcxproj" (default targets) -- FAILED.
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11528.dir\\Debug\\\\" /Fd"cmTC_11528.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5bqhyt\\src.c"
+        C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5bqhyt\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5bqhyt\\cmTC_11528.vcxproj]
+        Done Building Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5bqhyt\\cmTC_11528.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p2lz26\\cmTC_64206.vcxproj" (default target) (1) ->
+        "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5bqhyt\\cmTC_11528.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p2lz26\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p2lz26\\cmTC_64206.vcxproj]
+          C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5bqhyt\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5bqhyt\\cmTC_11528.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:01.25
+        Time Elapsed 00:00:00.36
         
       exitCode: 1
   -
@@ -342,52 +344,52 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-a6d9f7"
-      binary: "C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-a6d9f7"
+      source: "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-mu7pjd"
+      binary: "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-mu7pjd"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/raylib-cpp/libs/raylib/cmake;C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/raylib-cpp/libs/raylib/src/external/glfw/CMake/modules"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/libs/raylib/cmake;C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/libs/raylib/src/external/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-a6d9f7'
+        Change Dir: 'C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-mu7pjd'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_16db2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7082e.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 16/02/2024 09:26:01.
+        Build started 29/02/2024 11:53:35.
         
-        Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6d9f7\\cmTC_16db2.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mu7pjd\\cmTC_7082e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_16db2.dir\\Debug\\".
-          Creating directory "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6d9f7\\Debug\\".
-          Creating directory "cmTC_16db2.dir\\Debug\\cmTC_16db2.tlog\\".
+          Creating directory "cmTC_7082e.dir\\Debug\\".
+          Creating directory "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mu7pjd\\Debug\\".
+          Creating directory "cmTC_7082e.dir\\Debug\\cmTC_7082e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_16db2.dir\\Debug\\cmTC_16db2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_16db2.dir\\Debug\\cmTC_16db2.tlog\\unsuccessfulbuild".
+          Creating "cmTC_7082e.dir\\Debug\\cmTC_7082e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7082e.dir\\Debug\\cmTC_7082e.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16db2.dir\\Debug\\\\" /Fd"cmTC_16db2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6d9f7\\CheckFunctionExists.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7082e.dir\\Debug\\\\" /Fd"cmTC_7082e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mu7pjd\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x86
           CheckFunctionExists.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16db2.dir\\Debug\\\\" /Fd"cmTC_16db2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6d9f7\\CheckFunctionExists.c"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7082e.dir\\Debug\\\\" /Fd"cmTC_7082e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mu7pjd\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6d9f7\\Debug\\cmTC_16db2.exe" /INCREMENTAL /ILK:"cmTC_16db2.dir\\Debug\\cmTC_16db2.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-a6d9f7/Debug/cmTC_16db2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-a6d9f7/Debug/cmTC_16db2.lib" /MACHINE:X64  /machine:x64 cmTC_16db2.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6d9f7\\cmTC_16db2.vcxproj]
-        Done Building Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6d9f7\\cmTC_16db2.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mu7pjd\\Debug\\cmTC_7082e.exe" /INCREMENTAL /ILK:"cmTC_7082e.dir\\Debug\\cmTC_7082e.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-mu7pjd/Debug/cmTC_7082e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-mu7pjd/Debug/cmTC_7082e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_7082e.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mu7pjd\\cmTC_7082e.vcxproj]
+        Done Building Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mu7pjd\\cmTC_7082e.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6d9f7\\cmTC_16db2.vcxproj" (default target) (1) ->
+        "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mu7pjd\\cmTC_7082e.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6d9f7\\cmTC_16db2.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mu7pjd\\cmTC_7082e.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:01.26
+        Time Elapsed 00:00:00.48
         
       exitCode: 1
   -
@@ -400,52 +402,52 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-5g22jd"
-      binary: "C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-5g22jd"
+      source: "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-4nm079"
+      binary: "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-4nm079"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/raylib-cpp/libs/raylib/cmake;C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/raylib-cpp/libs/raylib/src/external/glfw/CMake/modules"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/libs/raylib/cmake;C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/libs/raylib/src/external/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-5g22jd'
+        Change Dir: 'C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-4nm079'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_17451.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_863e8.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 16/02/2024 09:26:03.
+        Build started 29/02/2024 11:53:36.
         
-        Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5g22jd\\cmTC_17451.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4nm079\\cmTC_863e8.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_17451.dir\\Debug\\".
-          Creating directory "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5g22jd\\Debug\\".
-          Creating directory "cmTC_17451.dir\\Debug\\cmTC_17451.tlog\\".
+          Creating directory "cmTC_863e8.dir\\Debug\\".
+          Creating directory "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4nm079\\Debug\\".
+          Creating directory "cmTC_863e8.dir\\Debug\\cmTC_863e8.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_17451.dir\\Debug\\cmTC_17451.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_17451.dir\\Debug\\cmTC_17451.tlog\\unsuccessfulbuild".
+          Creating "cmTC_863e8.dir\\Debug\\cmTC_863e8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_863e8.dir\\Debug\\cmTC_863e8.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17451.dir\\Debug\\\\" /Fd"cmTC_17451.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5g22jd\\CheckFunctionExists.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_863e8.dir\\Debug\\\\" /Fd"cmTC_863e8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4nm079\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x86
           CheckFunctionExists.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17451.dir\\Debug\\\\" /Fd"cmTC_17451.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5g22jd\\CheckFunctionExists.c"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_863e8.dir\\Debug\\\\" /Fd"cmTC_863e8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4nm079\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5g22jd\\Debug\\cmTC_17451.exe" /INCREMENTAL /ILK:"cmTC_17451.dir\\Debug\\cmTC_17451.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-5g22jd/Debug/cmTC_17451.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-5g22jd/Debug/cmTC_17451.lib" /MACHINE:X64  /machine:x64 cmTC_17451.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5g22jd\\cmTC_17451.vcxproj]
-        Done Building Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5g22jd\\cmTC_17451.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4nm079\\Debug\\cmTC_863e8.exe" /INCREMENTAL /ILK:"cmTC_863e8.dir\\Debug\\cmTC_863e8.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-4nm079/Debug/cmTC_863e8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/CMakeFiles/CMakeScratch/TryCompile-4nm079/Debug/cmTC_863e8.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_863e8.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4nm079\\cmTC_863e8.vcxproj]
+        Done Building Project "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4nm079\\cmTC_863e8.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5g22jd\\cmTC_17451.vcxproj" (default target) (1) ->
+        "C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4nm079\\cmTC_863e8.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\Sotware Development\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5g22jd\\cmTC_17451.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4nm079\\cmTC_863e8.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:01.25
+        Time Elapsed 00:00:00.46
         
       exitCode: 1
 ...

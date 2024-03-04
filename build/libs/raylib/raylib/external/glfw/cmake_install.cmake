@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/raylib-cpp/libs/raylib/src/external/glfw
+# Install script for directory: C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/libs/raylib/src/external/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/main")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/main")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/nolan/OneDrive - ROC Alfa-college/Sotware Development/mahgar/build/libs/raylib/raylib/external/glfw/src/cmake_install.cmake")
+  include("C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/libs/raylib/raylib/external/glfw/src/cmake_install.cmake")
 endif()
 

@@ -13,13 +13,17 @@ set(BUILD_GAMES    OFF CACHE BOOL "" FORCE) # or games
 add_subdirectory(libs/raylib)
 set(WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}")
 
-add_executable(${PROJECT_NAME} 
-src/main.cpp
-src/entity.cpp	
-src/core.cpp
-src/scene.cpp
+add_executable(${PROJECT_NAME}
+maghar-lib/src/blob.cpp
+maghar-lib/src/core.cpp
+maghar-lib/src/enemy.cpp
+maghar-lib/src/entity.cpp
+maghar-lib/src/rescourcemanager.cpp
+maghar/main.cpp
+maghar-lib/src/player.cpp
+maghar-lib/src/scene.cpp
 )
-target_include_directories(${PROJECT_NAME} PUBLIC ${WORKING_DIRECTORY}/headers)
+target_include_directories(${PROJECT_NAME} PUBLIC ${WORKING_DIRECTORY}/maghar-lib/headers)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE raylib)
 file(
