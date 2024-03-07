@@ -13,15 +13,12 @@ set(BUILD_GAMES    OFF CACHE BOOL "" FORCE) # or games
 add_subdirectory(libs/raylib)
 set(WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}")
 
-add_executable(${PROJECT_NAME}
-maghar-lib/src/blob.cpp
-maghar-lib/src/core.cpp
-maghar-lib/src/enemy.cpp
-maghar-lib/src/entity.cpp
-maghar-lib/src/rescourcemanager.cpp
+file(GLOB SOURCES "${WORKING_DIRECTORY}/maghar-lib/src/*.cpp")
+
+add_executable(${PROJECT_NAME} ${SOURCES}
 maghar/main.cpp
-maghar-lib/src/player.cpp
-maghar-lib/src/scene.cpp
+maghar/scene01.cpp
+maghar/blob.cpp
 )
 target_include_directories(${PROJECT_NAME} PUBLIC ${WORKING_DIRECTORY}/maghar-lib/headers)
 

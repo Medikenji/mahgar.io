@@ -18,6 +18,17 @@
 
 ---
 
+### Woensdag
+
+- **1e les uur**
+  AddChild functie toegevoegd aan Entity en fullscreen van config.h gefixt.
+  <br>
+
+- **2e les uur**
+  Menno uitleg gegeven over klassendiagram maken.
+  Werkende entity gekregen in een lose scene die specifiek voor Maghar is, ik kan nu aan een spel beginnen.
+  <br>
+
 <div style="page-break-after: always;"></div>
 
 # Week 9

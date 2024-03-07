@@ -2488,10 +2488,10 @@ AutomationEventList LoadAutomationEventList(const char *fileName)
 }
 
 // Unload automation events list from file
-void UnloadAutomationEventList(AutomationEventList list)
+void UnloadAutomationEventList(AutomationEventList *list)
 {
 #if defined(SUPPORT_AUTOMATION_EVENTS)
-    RL_FREE(list.events);
+    RL_FREE(list->events);
 #endif
 }
 

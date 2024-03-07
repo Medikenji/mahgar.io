@@ -1,10 +1,12 @@
 #include <core.h>
+#include "scene01.h"
 
 int main()
 {
     Core *core = new Core();
 
-    Scene *scene = new Scene(Config::SWIDTH, Config::SHEIGHT, "Maghdar");
+    Scene01 *scene = new Scene01(Config::SWIDTH, Config::SHEIGHT, (char *)"Maghdar");
+    // Config::configure();
 
     while (!WindowShouldClose())
     {
