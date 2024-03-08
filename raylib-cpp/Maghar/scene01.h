@@ -5,6 +5,7 @@
 
 #include <scene.h>
 #include "blob.h"
+#include "uielement.h"
 
 class Scene01 : public Scene
 {
@@ -15,6 +16,8 @@ public:
 
 private:
 	Blob *blob;
+	UIElement *uielement;
+	std::vector<Blob *> _blobs;
 };
 
 #endif /* SCENE01_H */

@@ -29,6 +29,25 @@
   Werkende entity gekregen in een lose scene die specifiek voor Maghar is, ik kan nu aan een spel beginnen.
   <br>
 
+---
+
+### Donderdag
+
+- **1e les uur**
+  Config file gefixt, veel comments toe gevoed en compatability toegevoegd voor de GCC 13.2.0 compiler voor meer snelheid in compilen.
+
+- **2e les uur**
+  Blob werkende gekregen met een snelheid die schaalt met de grootte.
+
+- \*\*3e les uur
+  Wip UIElement werkend gekregen.
+
+---
+
+### Vrijdag
+
+- **1e les uur**
+UIElement meer modulair gemaakt en drawFPS aangepast voor eigen gebruik.
 <div style="page-break-after: always;"></div>
 
 # Week 9

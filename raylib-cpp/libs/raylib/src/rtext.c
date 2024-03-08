@@ -1080,15 +1080,15 @@ bool ExportFontAsCode(Font font, const char *fileName)
 
 // Draw current FPS
 // NOTE: Uses default font
-void DrawFPS(int posX, int posY)
+void DrawFPS(int posX, int posY, int size, Color defaultColor)
 {
-    Color color = LIME;                         // Good FPS
+    Color color = defaultColor;                          // Good FPS
     int fps = GetFPS();
 
-    if ((fps < 30) && (fps >= 15)) color = ORANGE;  // Warning FPS
-    else if (fps < 15) color = RED;             // Low FPS
+    if ((fps < 30) && (fps >= 15)) color = ORANGE;      // Warning FPS
+    else if (fps < 15) color = RED;                      // Low FPS
 
-    DrawText(TextFormat("%2i FPS", fps), posX, posY, 20, color);
+    DrawText(TextFormat("%2i FPS", fps), posX, posY, size, color);
 }
 
 // Draw text (using default font)

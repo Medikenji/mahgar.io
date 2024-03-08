@@ -42,6 +42,12 @@
   "output": "CMakeFiles/main.dir/Maghar/blob.cpp.obj"
 },
 {
+  "directory": "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\main.dir\\Maghar\\uielement.cpp.obj -c \"C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\raylib-cpp\\Maghar\\uielement.cpp\"",
+  "file": "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/Maghar/uielement.cpp",
+  "output": "CMakeFiles/main.dir/Maghar/uielement.cpp.obj"
+},
+{
   "directory": "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build/libs/raylib/raylib",
   "command": "C:\\mingw64\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/raylib.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -O3 -DNDEBUG -std=gnu99 -o CMakeFiles\\raylib.dir\\rcore.c.obj -c \"C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\raylib-cpp\\libs\\raylib\\src\\rcore.c\"",
   "file": "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/libs/raylib/src/rcore.c",

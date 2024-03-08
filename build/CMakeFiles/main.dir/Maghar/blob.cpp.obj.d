@@ -55,6 +55,7 @@ CMakeFiles/main.dir/Maghar/blob.cpp.obj: \
  C:/mingw64/include/c++/13.2.0/backward/binders.h \
  C:/mingw64/include/c++/13.2.0/bits/range_access.h \
  C:/mingw64/include/c++/13.2.0/bits/vector.tcc \
+ C:/Users/nolan/OneDrive\ -\ ROC\ Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/maghar-lib/headers/config.h \
  C:/mingw64/include/c++/13.2.0/iostream \
  C:/mingw64/include/c++/13.2.0/ostream C:/mingw64/include/c++/13.2.0/ios \
  C:/mingw64/include/c++/13.2.0/iosfwd \
@@ -143,7 +144,6 @@ CMakeFiles/main.dir/Maghar/blob.cpp.obj: \
  C:/mingw64/include/c++/13.2.0/bits/ostream.tcc \
  C:/mingw64/include/c++/13.2.0/istream \
  C:/mingw64/include/c++/13.2.0/bits/istream.tcc \
- C:/Users/nolan/OneDrive\ -\ ROC\ Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/maghar-lib/headers/config.h \
  C:/mingw64/include/c++/13.2.0/cstdint \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
  C:/mingw64/x86_64-w64-mingw32/include/stdint.h

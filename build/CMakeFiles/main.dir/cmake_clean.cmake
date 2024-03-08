@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/Maghar/main.cpp.obj.d"
   "CMakeFiles/main.dir/Maghar/scene01.cpp.obj"
   "CMakeFiles/main.dir/Maghar/scene01.cpp.obj.d"
+  "CMakeFiles/main.dir/Maghar/uielement.cpp.obj"
+  "CMakeFiles/main.dir/Maghar/uielement.cpp.obj.d"
   "CMakeFiles/main.dir/maghar-lib/src/core.cpp.obj"
   "CMakeFiles/main.dir/maghar-lib/src/core.cpp.obj.d"
   "CMakeFiles/main.dir/maghar-lib/src/entity.cpp.obj"

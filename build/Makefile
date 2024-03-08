@@ -317,6 +317,30 @@ Maghar/scene01.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Maghar/scene01.cpp.s
 .PHONY : Maghar/scene01.cpp.s
 
+Maghar/uielement.obj: Maghar/uielement.cpp.obj
+.PHONY : Maghar/uielement.obj
+
+# target to build an object file
+Maghar/uielement.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Maghar/uielement.cpp.obj
+.PHONY : Maghar/uielement.cpp.obj
+
+Maghar/uielement.i: Maghar/uielement.cpp.i
+.PHONY : Maghar/uielement.i
+
+# target to preprocess a source file
+Maghar/uielement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Maghar/uielement.cpp.i
+.PHONY : Maghar/uielement.cpp.i
+
+Maghar/uielement.s: Maghar/uielement.cpp.s
+.PHONY : Maghar/uielement.s
+
+# target to generate assembly for a file
+Maghar/uielement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Maghar/uielement.cpp.s
+.PHONY : Maghar/uielement.cpp.s
+
 maghar-lib/src/core.obj: maghar-lib/src/core.cpp.obj
 .PHONY : maghar-lib/src/core.obj
 
@@ -441,6 +465,9 @@ help:
 	@echo ... Maghar/scene01.obj
 	@echo ... Maghar/scene01.i
 	@echo ... Maghar/scene01.s
+	@echo ... Maghar/uielement.obj
+	@echo ... Maghar/uielement.i
+	@echo ... Maghar/uielement.s
 	@echo ... maghar-lib/src/core.obj
 	@echo ... maghar-lib/src/core.i
 	@echo ... maghar-lib/src/core.s

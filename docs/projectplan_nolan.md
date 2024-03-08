@@ -67,8 +67,8 @@ Ik zet in deze planning alles wat ik sowiezo af wil hebben, extra aanpassingen z
 
 #### Fase 2
 
-- [ ] Scene klasse
-- [ ] Entity klasse
+- [x] Scene klasse
+- [x] Entity klasse
 - [ ] Blob klasse
 
 #### Fase 3

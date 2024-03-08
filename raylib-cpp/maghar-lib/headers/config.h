@@ -10,6 +10,7 @@
 #define fullscreen 0      // Configure for fullscreen: 0 for windowed mode, 1 for fullscreen
 #define vsync 1           // Vertical sync: 1 to enable, 0 to disable
 #define msaa 1            // Multi-sample anti-aliasing: 1 to enable, 0 to disable
+#define debug 0           // Debug mode: 1 to enable, 0 to disable
 
 class Config
 {

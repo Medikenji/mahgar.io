@@ -11,9 +11,16 @@ public:
 	Blob();
 	virtual ~Blob();
 	void update(float deltaTime);
+	void manageMovement(float deltaTime);
+	void clamp();
+	float getSize() { return _size; }
+	float getSpeed() { return _speed; }
+	Vector2 getVelocity() { return _velocity; }
 
 private:
-	/* add your private declarations */
+	Vector2 _velocity;
+	float _size;
+	float _speed;
 };
 
 #endif /* BLOB_H */

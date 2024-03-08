@@ -1,6 +1,13 @@
 {
   "cmake.sourceDirectory": "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp",
-  "cSpell.words": ["raymath", "RAYWHITE", "SHEIGHT", "SWIDTH"],
+  "cSpell.words": [
+    "HSHEIGHT",
+    "HSWIDTH",
+    "raymath",
+    "RAYWHITE",
+    "SHEIGHT",
+    "SWIDTH"
+  ],
   "files.associations": {
     "*.embeddedhtml": "html",
     "iostream": "cpp",
@@ -61,6 +68,20 @@
     "xmemory": "cpp",
     "xstring": "cpp",
     "xtr1common": "cpp",
-    "xutility": "cpp"
-  }
+    "xutility": "cpp",
+    "*.tcc": "cpp",
+    "array": "cpp",
+    "cstdarg": "cpp",
+    "cwctype": "cpp",
+    "deque": "cpp",
+    "unordered_map": "cpp",
+    "functional": "cpp",
+    "memory_resource": "cpp",
+    "numeric": "cpp",
+    "random": "cpp",
+    "string_view": "cpp",
+    "numbers": "cpp",
+    "cinttypes": "cpp"
+  },
+  "cSpell.language": "en,en-GB,en-US"
 }

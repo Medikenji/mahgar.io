@@ -1,45 +1,53 @@
-// entity.cpp
-
 #include "entity.h"
 
-int Entity::_nextEID = 0; // Static variable for tracking the next entity ID
+int Entity::_nextEID = 0;
 
 Entity::Entity()
 {
-    _EID = _nextEID;   // Assign a unique entity ID
-    _nextEID++;        // Prepare the next ID for future entities
-    position = {0, 0}; // Initialize position to origin
-    scale = {1, 1};    // Initialize scale to 1x for both dimensions
+    _EID = _nextEID;   // Assign the next available entity ID
+    _nextEID++;        // Increment the next available entity ID for the next entity
+    position = {0, 0}; // Set the default position of the entity
+    scale = {1, 1};    // Set the default scale of the entity
 }
 
 Entity::~Entity()
 {
-    // Destructor left intentionally blank
+    // Destructor
 }
 
 void Entity::addChild(Entity *child)
 {
-    if (child->_parent != nullptr) // Ensure the child does not already have a parent
+    if (child->parent != nullptr)
     {
-        perror("Child already has parent"); // Print an error if the child has a parent
+        perror("Child already has parent"); // Print an error message if the child already has a parent
     }
-    child->_parent = this;            // Set the current object as the child's parent
-    this->_children.push_back(child); // Add the child to this object's list of children
+    child->parent = this;             // Set the parent of the child entity to this entity
+    this->_children.push_back(child); // Add the child entity to the list of children
 }
 
 void Entity::removeChild(Entity *child)
 {
-    std::vector<Entity *>::iterator I = _children.begin(); // Iterator for traversing the children list
-    while (I != _children.end())                           // Loop through all children
+    std::vector<Entity *>::iterator I = _children.begin();
+    while (I != _children.end())
     {
-        if ((*I)->_EID == child->_EID) // If the current child is the one to remove
+        if ((*I)->_EID == child->_EID)
         {
-            child->_parent = nullptr; // Remove its parent reference
-            I = _children.erase(I);   // Erase the child from the list and update the iterator
+            child->parent = nullptr; // Set the parent of the child entity to nullptr
+            I = _children.erase(I);  // Remove the child entity from the list of children
         }
         else
         {
-            ++I; // Move to the next child if not the one to remove
+            ++I;
         }
     }
+}
+
+void Entity::deleteSelf()
+{
+    if (this->parent != nullptr)
+    {
+        this->parent->removeChild(this); // Remove this entity from its parent's list of children
+    }
+    _EID = -1;   // Set the entity ID to -1 to mark it as deleted
+    delete this; // Delete the entity from memory
 }

@@ -152,4 +152,5 @@ CMakeFiles/main.dir/Maghar/main.cpp.obj: \
  C:\Users\nolan\OneDrive\ -\ ROC\ Alfa-college\SotwareDevelopment\mahgar\raylib-cpp\Maghar\scene01.h \
  C:/Users/nolan/OneDrive\ -\ ROC\ Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/maghar-lib/headers/scene.h \
  C:\Users\nolan\OneDrive\ -\ ROC\ Alfa-college\SotwareDevelopment\mahgar\raylib-cpp\Maghar\blob.h \
- C:/Users/nolan/OneDrive\ -\ ROC\ Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/maghar-lib/headers/entity.h
+ C:/Users/nolan/OneDrive\ -\ ROC\ Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/maghar-lib/headers/entity.h \
+ C:\Users\nolan\OneDrive\ -\ ROC\ Alfa-college\SotwareDevelopment\mahgar\raylib-cpp\Maghar\uielement.h
