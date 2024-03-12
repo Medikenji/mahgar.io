@@ -12,6 +12,10 @@
 #define msaa 1            // Multi-sample anti-aliasing: 1 to enable, 0 to disable
 #define debug 0           // Debug mode: 1 to enable, 0 to disable
 
+/**
+ * @class Config
+ * @brief Represents a configuration class for settings related to the window.
+ */
 class Config
 {
 public:

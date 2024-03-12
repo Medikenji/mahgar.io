@@ -1,5 +1,3 @@
-// blob.cpp
-
 #include "blob.h"
 
 Blob::Blob() : Entity()
@@ -22,7 +20,6 @@ void Blob::update(float deltaTime)
 
 void Blob::manageMovement(float deltaTime)
 {
-
 	if (_velocity.x != 0 && _velocity.y != 0)
 	{
 		_velocity.x /= 1.4142;
