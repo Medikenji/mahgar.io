@@ -5,6 +5,7 @@
 
 #include <scene.h>
 #include "blob.h"
+#include "player.h"
 #include "uielement.h"
 
 class Scene01 : public Scene
@@ -15,7 +16,8 @@ public:
 	void update(float deltaTime);
 
 private:
-	Blob *blob;
+	void manageInput(float deltaTime);
+	Player *player;
 	UIElement *uielement;
 	std::vector<Blob *> _blobs;
 };

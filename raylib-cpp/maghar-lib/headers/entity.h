@@ -1,6 +1,7 @@
 // Include necessary headers
 #include <raylib.h>
 #include <vector>
+#include <math.h>
 #include "config.h"
 
 #ifndef ENTITY_H
@@ -21,6 +22,7 @@ public:
 	void addChild(Entity *child);
 	void removeChild(Entity *child);
 	const std::vector<Entity *> &children() { return _children; };
+	char *tag() { return _tag; }
 
 	// Getter for entity ID
 	int getEID() { return _EID; }
@@ -38,6 +40,9 @@ private:
 	std::vector<Entity *> _children;
 	int _EID;
 	static int _nextEID;
+
+protected:
+	char *_tag;
 };
 
 #endif /* ENTITY_H */

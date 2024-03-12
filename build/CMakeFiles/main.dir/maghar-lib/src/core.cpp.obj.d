@@ -148,4 +148,6 @@ CMakeFiles/main.dir/maghar-lib/src/core.cpp.obj: \
  C:/mingw64/include/c++/13.2.0/bits/stl_uninitialized.h \
  C:/mingw64/include/c++/13.2.0/bits/stl_vector.h \
  C:/mingw64/include/c++/13.2.0/bits/stl_bvector.h \
- C:/mingw64/include/c++/13.2.0/bits/vector.tcc
+ C:/mingw64/include/c++/13.2.0/bits/vector.tcc \
+ C:/mingw64/include/c++/13.2.0/math.h C:/mingw64/include/c++/13.2.0/cmath \
+ C:/mingw64/x86_64-w64-mingw32/include/math.h

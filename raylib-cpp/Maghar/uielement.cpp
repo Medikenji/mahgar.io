@@ -4,13 +4,19 @@
 
 UIElement::UIElement(std::vector<Entity *> children) : Entity()
 {
+	_player = nullptr;
 	for (Entity *child : children)
 	{
-		Blob *blob = dynamic_cast<Blob *>(child);
-		if (blob != nullptr)
+		Player *player = dynamic_cast<Player *>(child);
+		if (player != nullptr)
 		{
-			_player = blob;
+			_player = player;
 			break;
+		}
+		else
+		{
+			perror("Player not found");
+			return;
 		}
 	}
 }
@@ -35,7 +41,10 @@ void UIElement::drawStats()
 
 void UIElement::debugDrawStats()
 {
-	DrawFPS(5, 5, 20, WHITE);
-	DrawText(TextFormat("Player Size: %f", _player->getSize()), 5, 25, 20, WHITE);
-	DrawText(TextFormat("Player Speed: %f", _player->getSpeed()), 5, 45, 20, WHITE);
+#if debug
+	DrawFPS(Config::SWIDTH - 100, 5, 20, WHITE);
+	DrawText(TextFormat("Size Increase: %i", _player->sizeincrease), 5, 5, 20, WHITE);
+	DrawText(TextFormat("Player Size: %03.02f", _player->getSize()), 5, 25, 20, WHITE);
+	DrawText(TextFormat("Player Speed: %03.02f", _player->getSpeed()), 5, 45, 20, WHITE);
+#endif
 }

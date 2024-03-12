@@ -5,6 +5,21 @@
 ### Maandag
 
 - **1e les uur**
+  Uitleg over renderen van sprites, vertices, uv maps en beetje normals maps. Ook uitleg over CPU en GPU gekregen en de volgorde van hoe alles wordt aangeroepen en dan zijn we nog niet eens bij matrices wtf.
+  <br>
+
+- **2e les uur**
+  Movement toegevoegd met een normaliser die werkt op mijn hoop en dromen.
+  <br>
+
+- **3e les uur**
+  Probleem met UIElement crash wanneer children van scene leeg is ookal heb ik geprobeerd preventieve maatregelingen te nemen.
+
+<div style="page-break-after: always;"></div>
+
+### Maandag
+
+- **1e les uur**
   Resource management en class types uitleg gekregen.
   <br>
 
@@ -27,7 +42,6 @@
 - **2e les uur**
   Menno uitleg gegeven over klassendiagram maken.
   Werkende entity gekregen in een lose scene die specifiek voor Maghar is, ik kan nu aan een spel beginnen.
-  <br>
 
 ---
 
@@ -35,11 +49,13 @@
 
 - **1e les uur**
   Config file gefixt, veel comments toe gevoed en compatability toegevoegd voor de GCC 13.2.0 compiler voor meer snelheid in compilen.
+  <br>
 
 - **2e les uur**
   Blob werkende gekregen met een snelheid die schaalt met de grootte.
+  <br>
 
-- \*\*3e les uur
+- **3e les uur**
   Wip UIElement werkend gekregen.
 
 ---
@@ -99,8 +115,6 @@ UIElement meer modulair gemaakt en drawFPS aangepast voor eigen gebruik.
   Main, core en config werkend gekregen.
   Nu kan ik beginnen met mijn framework klasses.
 
----
-
 <div style="page-break-after: always;"></div>
 
 # Week 7
@@ -151,4 +165,3 @@ UIElement meer modulair gemaakt en drawFPS aangepast voor eigen gebruik.
 
 - **1e les uur:**
   Opnieuw begonnen met een werkende main en config file. Ook wat raylib functies door gelezen om toekomstige teleurstelling te voorkomen.
-  <br>

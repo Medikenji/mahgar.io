@@ -14,42 +14,29 @@ Blob::~Blob()
 
 void Blob::update(float deltaTime)
 {
-	if (_size > 300)
-	{
-		deleteSelf();
-	}
-	_speed = 75 - 0.2 * _size;
-	if (IsKeyDown(KEY_W))
-	{
-		_velocity.y -= _speed;
-	}
-	if (IsKeyDown(KEY_S))
-	{
-		_velocity.y += _speed;
-	}
-	if (IsKeyDown(KEY_A))
-	{
-		_velocity.x -= _speed;
-	}
-	if (IsKeyDown(KEY_D))
-	{
-		_velocity.x += _speed;
-	}
-	if (IsKeyDown(KEY_SPACE))
-	{
-		_size += 5 * deltaTime;
-	}
+	calculateSpeed();
 	manageMovement(deltaTime);
 	clamp();
-	DrawCircle(position.x, position.y, _size, RED);
+	DrawCircle(position.x, position.y, (int)_size, RED);
 }
 
 void Blob::manageMovement(float deltaTime)
 {
+
+	if (_velocity.x != 0 && _velocity.y != 0)
+	{
+		_velocity.x /= 1.4142;
+		_velocity.y /= 1.4142;
+	}
 	position.x += _velocity.x * deltaTime;
 	position.y += _velocity.y * deltaTime;
-	_velocity.x *= 0.9 * deltaTime;
-	_velocity.y *= 0.9 * deltaTime;
+	_velocity.x *= 0;
+	_velocity.y *= 0;
+}
+
+void Blob::calculateSpeed()
+{
+	_speed = 500 / pow(_size, 0.3);
 }
 
 void Blob::clamp()

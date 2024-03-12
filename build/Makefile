@@ -293,6 +293,30 @@ Maghar/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Maghar/main.cpp.s
 .PHONY : Maghar/main.cpp.s
 
+Maghar/player.obj: Maghar/player.cpp.obj
+.PHONY : Maghar/player.obj
+
+# target to build an object file
+Maghar/player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Maghar/player.cpp.obj
+.PHONY : Maghar/player.cpp.obj
+
+Maghar/player.i: Maghar/player.cpp.i
+.PHONY : Maghar/player.i
+
+# target to preprocess a source file
+Maghar/player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Maghar/player.cpp.i
+.PHONY : Maghar/player.cpp.i
+
+Maghar/player.s: Maghar/player.cpp.s
+.PHONY : Maghar/player.s
+
+# target to generate assembly for a file
+Maghar/player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Maghar/player.cpp.s
+.PHONY : Maghar/player.cpp.s
+
 Maghar/scene01.obj: Maghar/scene01.cpp.obj
 .PHONY : Maghar/scene01.obj
 
@@ -462,6 +486,9 @@ help:
 	@echo ... Maghar/main.obj
 	@echo ... Maghar/main.i
 	@echo ... Maghar/main.s
+	@echo ... Maghar/player.obj
+	@echo ... Maghar/player.i
+	@echo ... Maghar/player.s
 	@echo ... Maghar/scene01.obj
 	@echo ... Maghar/scene01.i
 	@echo ... Maghar/scene01.s

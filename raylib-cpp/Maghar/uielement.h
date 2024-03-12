@@ -5,6 +5,7 @@
 
 #include <entity.h>
 #include "blob.h"
+#include "player.h"
 
 class UIElement : public Entity
 {
@@ -16,7 +17,7 @@ public:
 private:
 	void drawStats();
 	void debugDrawStats();
-	Blob *_player;
+	Player *_player;
 };
 
 #endif /* UIELEMENT_H */

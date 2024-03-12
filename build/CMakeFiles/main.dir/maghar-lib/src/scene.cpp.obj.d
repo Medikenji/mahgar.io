@@ -55,6 +55,21 @@ CMakeFiles/main.dir/maghar-lib/src/scene.cpp.obj: \
  C:/mingw64/include/c++/13.2.0/backward/binders.h \
  C:/mingw64/include/c++/13.2.0/bits/range_access.h \
  C:/mingw64/include/c++/13.2.0/bits/vector.tcc \
+ C:/mingw64/include/c++/13.2.0/math.h C:/mingw64/include/c++/13.2.0/cmath \
+ C:/mingw64/x86_64-w64-mingw32/include/math.h \
+ C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+ C:/mingw64/include/c++/13.2.0/bits/std_abs.h \
+ C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+ C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/limits.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
+ C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/mingw64/include/c++/13.2.0/stdlib.h \
+ C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
+ C:/mingw64/x86_64-w64-mingw32/include/errno.h \
  C:/Users/nolan/OneDrive\ -\ ROC\ Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/maghar-lib/headers/config.h \
  C:/mingw64/include/c++/13.2.0/iostream \
  C:/mingw64/include/c++/13.2.0/ostream C:/mingw64/include/c++/13.2.0/ios \
@@ -63,9 +78,7 @@ CMakeFiles/main.dir/maghar-lib/src/scene.cpp.obj: \
  C:/mingw64/include/c++/13.2.0/bits/postypes.h \
  C:/mingw64/include/c++/13.2.0/cwchar \
  C:/mingw64/x86_64-w64-mingw32/include/wchar.h \
- C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
- C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
@@ -75,7 +88,6 @@ CMakeFiles/main.dir/maghar-lib/src/scene.cpp.obj: \
  C:/mingw64/include/c++/13.2.0/bits/cxxabi_init_exception.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
  C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
- C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
  C:/mingw64/include/c++/13.2.0/typeinfo \
  C:/mingw64/include/c++/13.2.0/bits/nested_exception.h \
  C:/mingw64/include/c++/13.2.0/bits/char_traits.h \
@@ -92,13 +104,9 @@ CMakeFiles/main.dir/maghar-lib/src/scene.cpp.obj: \
  C:/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/gthr.h \
  C:/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
  C:/mingw64/x86_64-w64-mingw32/include/pthread.h \
- C:/mingw64/x86_64-w64-mingw32/include/errno.h \
  C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
  C:/mingw64/x86_64-w64-mingw32/include/process.h \
  C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/limits.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
- C:/mingw64/x86_64-w64-mingw32/include/limits.h \
  C:/mingw64/x86_64-w64-mingw32/include/signal.h \
  C:/mingw64/x86_64-w64-mingw32/include/pthread_signal.h \
  C:/mingw64/x86_64-w64-mingw32/include/time.h \
@@ -116,12 +124,6 @@ CMakeFiles/main.dir/maghar-lib/src/scene.cpp.obj: \
  C:/mingw64/include/c++/13.2.0/bits/basic_string.h \
  C:/mingw64/include/c++/13.2.0/ext/string_conversions.h \
  C:/mingw64/include/c++/13.2.0/cstdlib \
- C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
- C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
- C:/mingw64/include/c++/13.2.0/stdlib.h \
- C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
- C:/mingw64/include/c++/13.2.0/bits/std_abs.h \
  C:/mingw64/include/c++/13.2.0/cstdio \
  C:/mingw64/include/c++/13.2.0/cerrno \
  C:/mingw64/include/c++/13.2.0/bits/charconv.h \

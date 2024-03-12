@@ -18,6 +18,9 @@ public:
 	Vector2 getVelocity() { return _velocity; }
 
 private:
+	void calculateSpeed();
+
+protected:
 	Vector2 _velocity;
 	float _size;
 	float _speed;

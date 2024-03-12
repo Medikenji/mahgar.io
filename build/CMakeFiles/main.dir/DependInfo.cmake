@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/Maghar/blob.cpp" "CMakeFiles/main.dir/Maghar/blob.cpp.obj" "gcc" "CMakeFiles/main.dir/Maghar/blob.cpp.obj.d"
   "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/Maghar/main.cpp" "CMakeFiles/main.dir/Maghar/main.cpp.obj" "gcc" "CMakeFiles/main.dir/Maghar/main.cpp.obj.d"
+  "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/Maghar/player.cpp" "CMakeFiles/main.dir/Maghar/player.cpp.obj" "gcc" "CMakeFiles/main.dir/Maghar/player.cpp.obj.d"
   "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/Maghar/scene01.cpp" "CMakeFiles/main.dir/Maghar/scene01.cpp.obj" "gcc" "CMakeFiles/main.dir/Maghar/scene01.cpp.obj.d"
   "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/Maghar/uielement.cpp" "CMakeFiles/main.dir/Maghar/uielement.cpp.obj" "gcc" "CMakeFiles/main.dir/Maghar/uielement.cpp.obj.d"
   "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/maghar-lib/src/core.cpp" "CMakeFiles/main.dir/maghar-lib/src/core.cpp.obj" "gcc" "CMakeFiles/main.dir/maghar-lib/src/core.cpp.obj.d"
