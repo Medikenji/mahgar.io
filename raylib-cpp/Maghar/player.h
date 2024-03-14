@@ -35,10 +35,6 @@ public:
 	 */
 	void manageMovement(float deltaTime, int key);
 
-#if debug
-	int sizeincrease = 5;
-#endif
-
 private:
 	/**
 	 * @brief Updates the player's state.
@@ -49,6 +45,10 @@ private:
 	 * @param deltaTime The time elapsed since the last frame.
 	 */
 	void update(float deltaTime);
+	void setUpUI();
+#if debug
+	float _sizeincrease = 5;
+#endif
 };
 
 #endif /* PLAYER_H */

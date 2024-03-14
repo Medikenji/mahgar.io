@@ -4,6 +4,7 @@
 #define BLOB_H
 
 #include <entity.h>
+#include <uielement.h>
 
 /**
  * @brief The Blob class represents a blob entity.
@@ -70,9 +71,10 @@ private:
 	void calculateSpeed();
 
 protected:
-	Vector2 _velocity; ///< The velocity of the blob.
-	float _size;	   ///< The size of the blob.
-	float _speed;	   ///< The speed of the blob.
+	Vector2 _velocity;	   ///< The velocity of the blob.
+	float _size;		   ///< The size of the blob.
+	float _speed;		   ///< The speed of the blob.
+	UIElement *_uiElement; ///< The UI element associated with the blob.
 };
 
 #endif /* BLOB_H */

@@ -128,11 +128,26 @@ CMakeFiles/main.dir/maghar-lib/src/scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/maghar-lib/src/scene.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\nolan\OneDrive - ROC Alfa-college\SotwareDevelopment\mahgar\raylib-cpp\maghar-lib\src\scene.cpp" -o CMakeFiles\main.dir\maghar-lib\src\scene.cpp.s
 
+CMakeFiles/main.dir/maghar-lib/src/uielement.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/maghar-lib/src/uielement.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/maghar-lib/src/uielement.cpp.obj: C:/Users/nolan/OneDrive\ -\ ROC\ Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/maghar-lib/src/uielement.cpp
+CMakeFiles/main.dir/maghar-lib/src/uielement.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\nolan\OneDrive - ROC Alfa-college\SotwareDevelopment\mahgar\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/maghar-lib/src/uielement.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/maghar-lib/src/uielement.cpp.obj -MF CMakeFiles\main.dir\maghar-lib\src\uielement.cpp.obj.d -o CMakeFiles\main.dir\maghar-lib\src\uielement.cpp.obj -c "C:\Users\nolan\OneDrive - ROC Alfa-college\SotwareDevelopment\mahgar\raylib-cpp\maghar-lib\src\uielement.cpp"
+
+CMakeFiles/main.dir/maghar-lib/src/uielement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/maghar-lib/src/uielement.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\nolan\OneDrive - ROC Alfa-college\SotwareDevelopment\mahgar\raylib-cpp\maghar-lib\src\uielement.cpp" > CMakeFiles\main.dir\maghar-lib\src\uielement.cpp.i
+
+CMakeFiles/main.dir/maghar-lib/src/uielement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/maghar-lib/src/uielement.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\nolan\OneDrive - ROC Alfa-college\SotwareDevelopment\mahgar\raylib-cpp\maghar-lib\src\uielement.cpp" -o CMakeFiles\main.dir\maghar-lib\src\uielement.cpp.s
+
 CMakeFiles/main.dir/Maghar/main.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Maghar/main.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/Maghar/main.cpp.obj: C:/Users/nolan/OneDrive\ -\ ROC\ Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/Maghar/main.cpp
 CMakeFiles/main.dir/Maghar/main.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\nolan\OneDrive - ROC Alfa-college\SotwareDevelopment\mahgar\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/Maghar/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\nolan\OneDrive - ROC Alfa-college\SotwareDevelopment\mahgar\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/Maghar/main.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Maghar/main.cpp.obj -MF CMakeFiles\main.dir\Maghar\main.cpp.obj.d -o CMakeFiles\main.dir\Maghar\main.cpp.obj -c "C:\Users\nolan\OneDrive - ROC Alfa-college\SotwareDevelopment\mahgar\raylib-cpp\Maghar\main.cpp"
 
 CMakeFiles/main.dir/Maghar/main.cpp.i: cmake_force
@@ -147,7 +162,7 @@ CMakeFiles/main.dir/Maghar/scene01.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Maghar/scene01.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/Maghar/scene01.cpp.obj: C:/Users/nolan/OneDrive\ -\ ROC\ Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/Maghar/scene01.cpp
 CMakeFiles/main.dir/Maghar/scene01.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\nolan\OneDrive - ROC Alfa-college\SotwareDevelopment\mahgar\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/Maghar/scene01.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\nolan\OneDrive - ROC Alfa-college\SotwareDevelopment\mahgar\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/Maghar/scene01.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Maghar/scene01.cpp.obj -MF CMakeFiles\main.dir\Maghar\scene01.cpp.obj.d -o CMakeFiles\main.dir\Maghar\scene01.cpp.obj -c "C:\Users\nolan\OneDrive - ROC Alfa-college\SotwareDevelopment\mahgar\raylib-cpp\Maghar\scene01.cpp"
 
 CMakeFiles/main.dir/Maghar/scene01.cpp.i: cmake_force
@@ -162,7 +177,7 @@ CMakeFiles/main.dir/Maghar/blob.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Maghar/blob.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/Maghar/blob.cpp.obj: C:/Users/nolan/OneDrive\ -\ ROC\ Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/Maghar/blob.cpp
 CMakeFiles/main.dir/Maghar/blob.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\nolan\OneDrive - ROC Alfa-college\SotwareDevelopment\mahgar\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/Maghar/blob.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\nolan\OneDrive - ROC Alfa-college\SotwareDevelopment\mahgar\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/Maghar/blob.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Maghar/blob.cpp.obj -MF CMakeFiles\main.dir\Maghar\blob.cpp.obj.d -o CMakeFiles\main.dir\Maghar\blob.cpp.obj -c "C:\Users\nolan\OneDrive - ROC Alfa-college\SotwareDevelopment\mahgar\raylib-cpp\Maghar\blob.cpp"
 
 CMakeFiles/main.dir/Maghar/blob.cpp.i: cmake_force
@@ -172,21 +187,6 @@ CMakeFiles/main.dir/Maghar/blob.cpp.i: cmake_force
 CMakeFiles/main.dir/Maghar/blob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Maghar/blob.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\nolan\OneDrive - ROC Alfa-college\SotwareDevelopment\mahgar\raylib-cpp\Maghar\blob.cpp" -o CMakeFiles\main.dir\Maghar\blob.cpp.s
-
-CMakeFiles/main.dir/Maghar/uielement.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/Maghar/uielement.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/Maghar/uielement.cpp.obj: C:/Users/nolan/OneDrive\ -\ ROC\ Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/Maghar/uielement.cpp
-CMakeFiles/main.dir/Maghar/uielement.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\nolan\OneDrive - ROC Alfa-college\SotwareDevelopment\mahgar\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/Maghar/uielement.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Maghar/uielement.cpp.obj -MF CMakeFiles\main.dir\Maghar\uielement.cpp.obj.d -o CMakeFiles\main.dir\Maghar\uielement.cpp.obj -c "C:\Users\nolan\OneDrive - ROC Alfa-college\SotwareDevelopment\mahgar\raylib-cpp\Maghar\uielement.cpp"
-
-CMakeFiles/main.dir/Maghar/uielement.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Maghar/uielement.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\nolan\OneDrive - ROC Alfa-college\SotwareDevelopment\mahgar\raylib-cpp\Maghar\uielement.cpp" > CMakeFiles\main.dir\Maghar\uielement.cpp.i
-
-CMakeFiles/main.dir/Maghar/uielement.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Maghar/uielement.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\nolan\OneDrive - ROC Alfa-college\SotwareDevelopment\mahgar\raylib-cpp\Maghar\uielement.cpp" -o CMakeFiles\main.dir\Maghar\uielement.cpp.s
 
 CMakeFiles/main.dir/Maghar/player.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Maghar/player.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
@@ -209,10 +209,10 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/maghar-lib/src/entity.cpp.obj" \
 "CMakeFiles/main.dir/maghar-lib/src/rescourcemanager.cpp.obj" \
 "CMakeFiles/main.dir/maghar-lib/src/scene.cpp.obj" \
+"CMakeFiles/main.dir/maghar-lib/src/uielement.cpp.obj" \
 "CMakeFiles/main.dir/Maghar/main.cpp.obj" \
 "CMakeFiles/main.dir/Maghar/scene01.cpp.obj" \
 "CMakeFiles/main.dir/Maghar/blob.cpp.obj" \
-"CMakeFiles/main.dir/Maghar/uielement.cpp.obj" \
 "CMakeFiles/main.dir/Maghar/player.cpp.obj"
 
 # External object files for target main
@@ -222,10 +222,10 @@ main.exe: CMakeFiles/main.dir/maghar-lib/src/core.cpp.obj
 main.exe: CMakeFiles/main.dir/maghar-lib/src/entity.cpp.obj
 main.exe: CMakeFiles/main.dir/maghar-lib/src/rescourcemanager.cpp.obj
 main.exe: CMakeFiles/main.dir/maghar-lib/src/scene.cpp.obj
+main.exe: CMakeFiles/main.dir/maghar-lib/src/uielement.cpp.obj
 main.exe: CMakeFiles/main.dir/Maghar/main.cpp.obj
 main.exe: CMakeFiles/main.dir/Maghar/scene01.cpp.obj
 main.exe: CMakeFiles/main.dir/Maghar/blob.cpp.obj
-main.exe: CMakeFiles/main.dir/Maghar/uielement.cpp.obj
 main.exe: CMakeFiles/main.dir/Maghar/player.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: libs/raylib/raylib/libraylib.a

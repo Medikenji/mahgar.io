@@ -152,5 +152,5 @@ CMakeFiles/main.dir/Maghar/scene01.cpp.obj: \
  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
  C:\Users\nolan\OneDrive\ -\ ROC\ Alfa-college\SotwareDevelopment\mahgar\raylib-cpp\Maghar\blob.h \
  C:/Users/nolan/OneDrive\ -\ ROC\ Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/maghar-lib/headers/entity.h \
- C:\Users\nolan\OneDrive\ -\ ROC\ Alfa-college\SotwareDevelopment\mahgar\raylib-cpp\Maghar\player.h \
- C:\Users\nolan\OneDrive\ -\ ROC\ Alfa-college\SotwareDevelopment\mahgar\raylib-cpp\Maghar\uielement.h
+ C:/Users/nolan/OneDrive\ -\ ROC\ Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/maghar-lib/headers/uielement.h \
+ C:\Users\nolan\OneDrive\ -\ ROC\ Alfa-college\SotwareDevelopment\mahgar\raylib-cpp\Maghar\player.h

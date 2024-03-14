@@ -28,7 +28,6 @@ add_executable(${PROJECT_NAME} ${SOURCES}
 	maghar/main.cpp
 	maghar/scene01.cpp
 	maghar/blob.cpp
-	maghar/uielement.cpp
 	maghar/player.cpp
 )
 

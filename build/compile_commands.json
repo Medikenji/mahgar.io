@@ -25,6 +25,12 @@
 },
 {
   "directory": "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\main.dir\\maghar-lib\\src\\uielement.cpp.obj -c \"C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\raylib-cpp\\maghar-lib\\src\\uielement.cpp\"",
+  "file": "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/maghar-lib/src/uielement.cpp",
+  "output": "CMakeFiles/main.dir/maghar-lib/src/uielement.cpp.obj"
+},
+{
+  "directory": "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build",
   "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\main.dir\\Maghar\\main.cpp.obj -c \"C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\raylib-cpp\\Maghar\\main.cpp\"",
   "file": "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/Maghar/main.cpp",
   "output": "CMakeFiles/main.dir/Maghar/main.cpp.obj"
@@ -40,12 +46,6 @@
   "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\main.dir\\Maghar\\blob.cpp.obj -c \"C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\raylib-cpp\\Maghar\\blob.cpp\"",
   "file": "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/Maghar/blob.cpp",
   "output": "CMakeFiles/main.dir/Maghar/blob.cpp.obj"
-},
-{
-  "directory": "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build",
-  "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\main.dir\\Maghar\\uielement.cpp.obj -c \"C:\\Users\\nolan\\OneDrive - ROC Alfa-college\\SotwareDevelopment\\mahgar\\raylib-cpp\\Maghar\\uielement.cpp\"",
-  "file": "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/Maghar/uielement.cpp",
-  "output": "CMakeFiles/main.dir/Maghar/uielement.cpp.obj"
 },
 {
   "directory": "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/mahgar/build",

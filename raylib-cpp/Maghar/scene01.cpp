@@ -6,8 +6,6 @@ Scene01::Scene01(int SWIDTH, int SHEIGHT, char *title) : Scene(SWIDTH, SHEIGHT, 
 {
 	player = new Player();
 	this->addChild(player);
-	uielement = new UIElement(this->children());
-	this->addChild(uielement);
 }
 
 Scene01::~Scene01()

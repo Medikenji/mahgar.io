@@ -18,7 +18,7 @@ public:
 private:
 	void manageInput(float deltaTime);
 	Player *player;
-	UIElement *uielement;
+	Blob *blob;
 	std::vector<Blob *> _blobs;
 };
 

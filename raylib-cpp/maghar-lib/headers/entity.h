@@ -14,6 +14,14 @@
  * It provides common functionality such as updating, managing children entities,
  * and storing position and scale information.
  */
+/**
+ * @brief The Entity class represents a game entity.
+ *
+ * An entity is an object in a game that can have a position, scale, and other properties.
+ * It can also have child entities, which are positioned relative to the parent entity.
+ * The Entity class provides methods for updating the entity's state, adding and removing child entities,
+ * and accessing information about the entity.
+ */
 class Entity
 {
 public:
@@ -71,7 +79,7 @@ public:
 	 *
 	 * @return A pointer to the tag of the entity.
 	 */
-	char *tag() { return _tag; }
+	uint8_t tag() { return _tag; }
 
 	/**
 	 * @brief Gets the entity ID.
@@ -93,13 +101,26 @@ public:
 	Vector2 scale;	  ///< The scale of the entity.
 	Entity *parent;	  ///< The parent entity of this entity.
 
+	/*####################################################################################################*/
+
+	struct UITextLine
+	{
+		const char *text;
+		float *variable;
+		float fontSize;
+		Vector2 position;
+		Color color;
+	};
+
+	/*####################################################################################################*/
 private:
 	std::vector<Entity *> _children; ///< The list of child entities.
 	int _EID;						 ///< The ID of the entity.
 	static int _nextEID;			 ///< The next available entity ID.
 
 protected:
-	char *_tag; ///< The tag of the entity.
+	uint8_t _tag; ///< The tag of the entity.
+	std::vector<UITextLine> _lines;
 };
 
 #endif /* ENTITY_H */

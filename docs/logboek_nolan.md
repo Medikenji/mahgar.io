@@ -15,6 +15,19 @@
 - **3e les uur**
   Probleem met UIElement crash wanneer children van scene leeg is ookal heb ik geprobeerd preventieve maatregelingen te nemen.
 
+---
+
+### Donderdag
+
+- **1e les uur**
+  Hulp gekregen van Maik om UIElement anders te ontwerpen zodat het geimplementeerd kan worden in mijn framework in plaats van mijn game.
+
+  - **2e les uur**
+    Begonnen met UIElement refactoren.
+
+  - **3e les uur**
+    UIElement werkt zoals bedacht.
+
 <div style="page-break-after: always;"></div>
 
 ### Maandag

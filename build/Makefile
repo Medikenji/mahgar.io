@@ -341,30 +341,6 @@ Maghar/scene01.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Maghar/scene01.cpp.s
 .PHONY : Maghar/scene01.cpp.s
 
-Maghar/uielement.obj: Maghar/uielement.cpp.obj
-.PHONY : Maghar/uielement.obj
-
-# target to build an object file
-Maghar/uielement.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Maghar/uielement.cpp.obj
-.PHONY : Maghar/uielement.cpp.obj
-
-Maghar/uielement.i: Maghar/uielement.cpp.i
-.PHONY : Maghar/uielement.i
-
-# target to preprocess a source file
-Maghar/uielement.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Maghar/uielement.cpp.i
-.PHONY : Maghar/uielement.cpp.i
-
-Maghar/uielement.s: Maghar/uielement.cpp.s
-.PHONY : Maghar/uielement.s
-
-# target to generate assembly for a file
-Maghar/uielement.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Maghar/uielement.cpp.s
-.PHONY : Maghar/uielement.cpp.s
-
 maghar-lib/src/core.obj: maghar-lib/src/core.cpp.obj
 .PHONY : maghar-lib/src/core.obj
 
@@ -461,6 +437,30 @@ maghar-lib/src/scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/maghar-lib/src/scene.cpp.s
 .PHONY : maghar-lib/src/scene.cpp.s
 
+maghar-lib/src/uielement.obj: maghar-lib/src/uielement.cpp.obj
+.PHONY : maghar-lib/src/uielement.obj
+
+# target to build an object file
+maghar-lib/src/uielement.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/maghar-lib/src/uielement.cpp.obj
+.PHONY : maghar-lib/src/uielement.cpp.obj
+
+maghar-lib/src/uielement.i: maghar-lib/src/uielement.cpp.i
+.PHONY : maghar-lib/src/uielement.i
+
+# target to preprocess a source file
+maghar-lib/src/uielement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/maghar-lib/src/uielement.cpp.i
+.PHONY : maghar-lib/src/uielement.cpp.i
+
+maghar-lib/src/uielement.s: maghar-lib/src/uielement.cpp.s
+.PHONY : maghar-lib/src/uielement.s
+
+# target to generate assembly for a file
+maghar-lib/src/uielement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/maghar-lib/src/uielement.cpp.s
+.PHONY : maghar-lib/src/uielement.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -492,9 +492,6 @@ help:
 	@echo ... Maghar/scene01.obj
 	@echo ... Maghar/scene01.i
 	@echo ... Maghar/scene01.s
-	@echo ... Maghar/uielement.obj
-	@echo ... Maghar/uielement.i
-	@echo ... Maghar/uielement.s
 	@echo ... maghar-lib/src/core.obj
 	@echo ... maghar-lib/src/core.i
 	@echo ... maghar-lib/src/core.s
@@ -507,6 +504,9 @@ help:
 	@echo ... maghar-lib/src/scene.obj
 	@echo ... maghar-lib/src/scene.i
 	@echo ... maghar-lib/src/scene.s
+	@echo ... maghar-lib/src/uielement.obj
+	@echo ... maghar-lib/src/uielement.i
+	@echo ... maghar-lib/src/uielement.s
 .PHONY : help
 
 

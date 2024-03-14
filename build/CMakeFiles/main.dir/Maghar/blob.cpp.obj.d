@@ -148,4 +148,5 @@ CMakeFiles/main.dir/Maghar/blob.cpp.obj: \
  C:/mingw64/include/c++/13.2.0/bits/istream.tcc \
  C:/mingw64/include/c++/13.2.0/cstdint \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
- C:/mingw64/x86_64-w64-mingw32/include/stdint.h
+ C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+ C:/Users/nolan/OneDrive\ -\ ROC\ Alfa-college/SotwareDevelopment/mahgar/raylib-cpp/maghar-lib/headers/uielement.h

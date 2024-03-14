@@ -36,7 +36,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 39,
+				"line" : 38,
 				"parent" : 0
 			},
 			{
@@ -51,7 +51,7 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 36,
+				"line" : 35,
 				"parent" : 0
 			}
 		]
@@ -219,6 +219,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "maghar-lib/src/uielement.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "Maghar/main.cpp",
 			"sourceGroupIndex" : 0
 		},
@@ -232,12 +238,6 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Maghar/blob.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Maghar/uielement.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
