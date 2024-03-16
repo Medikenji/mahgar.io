@@ -4,7 +4,7 @@
 
 _Nolan Bijmholt_
 
-**_v1_**
+**_v2_**
 
 <br>
 
@@ -35,7 +35,7 @@ In dit document ga ik mijn planning voor dit project uitwerken en wekelijk bij p
 
 ### Gameplay
 
-Ik ga een simpel spel maken dat inspiratie heeft genomen van de webgame [Agario](https://sigmally.com/).
+Ik ga een simpel spel maken dat inspiratie heeft genomen van de webgame _[Agario](https://agar.io/)_.
 Alle "spelers" in het spel zijn ballen/blobs die groeien wanneer ze een kleinere blob consumeren. Hierdoor kun je steeds grotere blobs eten todat je zelf geconsumeert wordt.
 Ik ga met name proberen de logica te maken van het consumeren van andere blobs en de statestieke effecten die dit heeft op de speler.
 Denk hieraan aan de speler die groter en trager wordt op een gebalanceerde manier. Wanneer ik nog tijd over heb kan ik een spawn systeem maken die mee schaalt met de speler en mogelijk kleinere functies.
@@ -60,7 +60,6 @@ Ik zet in deze planning alles wat ik sowiezo af wil hebben, extra aanpassingen z
 #### Fase 1
 
 - [x] Klassendiagram
-- [ ] GDD
 - [x] Config bijwerken
 - [x] Klassen aanmaken en folderstructuur goed zetten
 - [x] Main en core klaarzetten
@@ -69,7 +68,10 @@ Ik zet in deze planning alles wat ik sowiezo af wil hebben, extra aanpassingen z
 
 - [x] Scene klasse
 - [x] Entity klasse
-- [ ] Blob klasse
+- [x] Blob klasse
+- [x] Core klasse
+- [x] Scene01 werkend
+- [x] GDD
 
 #### Fase 3
 

@@ -64,7 +64,7 @@ void Player::setUpUI()
 	UITextLine size;
 	size.text = "Size: %06.2f";
 	size.variable = &_size;
-	size.position = {10, 10};
+	size.position = {10, 30};
 	size.fontSize = 20;
 	size.color = WHITE;
 	_lines.push_back(size);
@@ -73,7 +73,7 @@ void Player::setUpUI()
 	UITextLine speed;
 	speed.text = "Speed: %05.1f";
 	speed.variable = &_speed;
-	speed.position = {10, 10};
+	speed.position = {10, 50};
 	speed.fontSize = 20;
 	speed.color = WHITE;
 	_lines.push_back(speed);

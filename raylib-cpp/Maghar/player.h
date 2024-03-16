@@ -11,6 +11,12 @@
  * This class inherits from the Blob class and provides additional functionality
  * specific to the player.
  */
+/**
+ * @brief The Player class represents a player in the game.
+ *
+ * The Player class inherits from the Blob class and adds additional functionality
+ * specific to the player.
+ */
 class Player : public Blob
 {
 public:
@@ -45,7 +51,15 @@ private:
 	 * @param deltaTime The time elapsed since the last frame.
 	 */
 	void update(float deltaTime);
+
+	/**
+	 * @brief Sets up the user interface for the player.
+	 *
+	 * This function is called internally to set up the user interface elements
+	 * for the player.
+	 */
 	void setUpUI();
+
 #if debug
 	float _sizeincrease = 5;
 #endif
