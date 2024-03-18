@@ -41,6 +41,10 @@ public:
 	 */
 	void manageMovement(float deltaTime, int key);
 
+#if debug
+	float getSizeIncrease() { return _sizeincrease; };
+#endif
+
 private:
 	/**
 	 * @brief Updates the player's state.
@@ -61,7 +65,7 @@ private:
 	void setUpUI();
 
 #if debug
-	float _sizeincrease = 5;
+	int _sizeincrease = 5;
 #endif
 };
 

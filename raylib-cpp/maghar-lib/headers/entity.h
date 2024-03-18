@@ -106,7 +106,11 @@ public:
 	struct UITextLine
 	{
 		const char *text;
-		float *variable;
+		union
+		{
+			float *fvariable;
+			int *ivariable;
+		};
 		float fontSize;
 		Vector2 position;
 		Color color;

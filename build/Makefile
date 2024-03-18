@@ -317,6 +317,30 @@ Maghar/player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Maghar/player.cpp.s
 .PHONY : Maghar/player.cpp.s
 
+Maghar/ploinc.obj: Maghar/ploinc.cpp.obj
+.PHONY : Maghar/ploinc.obj
+
+# target to build an object file
+Maghar/ploinc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Maghar/ploinc.cpp.obj
+.PHONY : Maghar/ploinc.cpp.obj
+
+Maghar/ploinc.i: Maghar/ploinc.cpp.i
+.PHONY : Maghar/ploinc.i
+
+# target to preprocess a source file
+Maghar/ploinc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Maghar/ploinc.cpp.i
+.PHONY : Maghar/ploinc.cpp.i
+
+Maghar/ploinc.s: Maghar/ploinc.cpp.s
+.PHONY : Maghar/ploinc.s
+
+# target to generate assembly for a file
+Maghar/ploinc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Maghar/ploinc.cpp.s
+.PHONY : Maghar/ploinc.cpp.s
+
 Maghar/scene01.obj: Maghar/scene01.cpp.obj
 .PHONY : Maghar/scene01.obj
 
@@ -489,6 +513,9 @@ help:
 	@echo ... Maghar/player.obj
 	@echo ... Maghar/player.i
 	@echo ... Maghar/player.s
+	@echo ... Maghar/ploinc.obj
+	@echo ... Maghar/ploinc.i
+	@echo ... Maghar/ploinc.s
 	@echo ... Maghar/scene01.obj
 	@echo ... Maghar/scene01.i
 	@echo ... Maghar/scene01.s

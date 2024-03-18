@@ -29,6 +29,7 @@ add_executable(${PROJECT_NAME} ${SOURCES}
 	maghar/scene01.cpp
 	maghar/blob.cpp
 	maghar/player.cpp
+	maghar/ploinc.cpp
 )
 
 # Add the maghar-lib/headers directory to the include directories for the target

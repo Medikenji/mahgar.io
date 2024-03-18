@@ -1,5 +1,22 @@
 ## Logboek Nolan
 
+# Week 12
+
+### Maandag
+
+- **1e les uur**
+  Uitleg over matrices gekregen.
+
+- **2e les uur**
+  UIElement geprobeerd meer modulair te maken.
+
+- **3e les uur**
+  Ploinc klasse toegevoegd en nog steed bezig geweest met UIElement, niet heel veel verder gekomen.
+
+---
+
+<div style="page-break-after: always;"></div>
+
 # Week 11
 
 ### Maandag

@@ -5,6 +5,7 @@ Player::Player() : Blob()
 	setUpUI();
 	_uiElement = new UIElement(_lines);
 	this->addChild(_uiElement);
+	_sizeincrease = 5;
 }
 
 Player::~Player()
@@ -13,7 +14,7 @@ Player::~Player()
 
 void Player::update(float deltaTime)
 {
-	Blob::update(deltaTime);
+
 	_uiElement->update(deltaTime);
 }
 
@@ -54,16 +55,19 @@ void Player::setUpUI()
 #if debug
 	UITextLine sizeincrease;
 	sizeincrease.text = "Size increase: %03.0f";
-	sizeincrease.variable = &_sizeincrease;
+	sizeincrease.ivariable = &_sizeincrease;
 	sizeincrease.position = {10, 10};
 	sizeincrease.fontSize = 20;
 	sizeincrease.color = WHITE;
 	_lines.push_back(sizeincrease);
-
+	if (*sizeincrease.fvariable != 7.00649e-45)
+	{
+		std::cout << *sizeincrease.fvariable << std::endl;
+	}
 	// size
 	UITextLine size;
 	size.text = "Size: %06.2f";
-	size.variable = &_size;
+	size.fvariable = &_size;
 	size.position = {10, 30};
 	size.fontSize = 20;
 	size.color = WHITE;
@@ -72,7 +76,7 @@ void Player::setUpUI()
 	// speed
 	UITextLine speed;
 	speed.text = "Speed: %05.1f";
-	speed.variable = &_speed;
+	speed.fvariable = &_speed;
 	speed.position = {10, 50};
 	speed.fontSize = 20;
 	speed.color = WHITE;
@@ -80,7 +84,7 @@ void Player::setUpUI()
 #else
 	UITextLine size;
 	size.text = "Size: %03.0f";
-	size.variable = &_size;
+	size.fvariable = &_size;
 	size.position = {10, 10};
 	size.fontSize = 20;
 	size.color = WHITE;

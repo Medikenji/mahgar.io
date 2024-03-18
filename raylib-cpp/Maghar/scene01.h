@@ -6,6 +6,7 @@
 #include <scene.h>
 #include "blob.h"
 #include "player.h"
+#include "ploinc.h"
 #include "uielement.h"
 
 class Scene01 : public Scene
@@ -17,8 +18,9 @@ public:
 
 private:
 	void manageInput(float deltaTime);
+	void setupUI();
+	UIElement *ui;
 	Player *player;
-	Blob *blob;
 	std::vector<Blob *> _blobs;
 };
 

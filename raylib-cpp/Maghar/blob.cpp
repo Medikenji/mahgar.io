@@ -3,7 +3,7 @@
 Blob::Blob() : Entity()
 {
 	position = {Config::HSWIDTH, Config::HSHEIGHT};
-	_size = 5;
+	_size = Config::SWIDTH / 200;
 }
 
 Blob::~Blob()

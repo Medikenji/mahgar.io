@@ -5,12 +5,13 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#define screen_width 800  // Width of the screen in pixels
-#define screen_height 600 // Height of the screen in pixels
-#define fullscreen 0      // Configure for fullscreen: 0 for windowed mode, 1 for fullscreen
-#define vsync 1           // Vertical sync: 1 to enable, 0 to disable
-#define msaa 1            // Multi-sample anti-aliasing: 1 to enable, 0 to disable
-#define debug 1           // Debug mode: 1 to enable, 0 to disable
+#define screen_width 1920  // Width of the screen in pixels
+#define screen_height 1080 // Height of the screen in pixels
+#define fullscreen 1       // Configure for fullscreen: 0 for windowed mode, 1 for fullscreen
+#define vsync 1            // Vertical sync: 1 to enable, 0 to disable
+#define msaa 1             // Multi-sample anti-aliasing: 1 to enable, 0 to disable
+#define debug 1            // Debug mode: 1 to enable, 0 to disable
+#define show_fps 1         // Show frames per second: 1 to enable, 0 to disable
 
 /**
  * @class Config
